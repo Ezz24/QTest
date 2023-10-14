@@ -53,13 +53,13 @@ public class PlaceOrder {
 
     private void fillOrderForm() {
         WebElement nameField = driver.findElement(By.id("name"));
-        nameField.sendKeys("John Doe");
+        nameField.sendKeys("Mo ezz");
 
         WebElement countryField = driver.findElement(By.id("country"));
-        countryField.sendKeys("United States");
+        countryField.sendKeys("cairo");
 
         WebElement cityField = driver.findElement(By.id("city"));
-        cityField.sendKeys("New York");
+        cityField.sendKeys("nasr city");
 
         WebElement cardField = driver.findElement(By.id("card"));
         cardField.sendKeys("1234 5678 9012 3456");
@@ -68,7 +68,7 @@ public class PlaceOrder {
         monthField.sendKeys("12");
 
         WebElement yearField = driver.findElement(By.id("year"));
-        yearField.sendKeys("2025");
+        yearField.sendKeys("2023");
     }
 
     @AfterClass
