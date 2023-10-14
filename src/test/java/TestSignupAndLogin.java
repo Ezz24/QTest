@@ -29,7 +29,7 @@ public class TestSignupAndLogin {
 
 
         WebElement usernameField = wait.until(ExpectedConditions.elementToBeClickable(By.id("sign-username")));
-        usernameField.sendKeys("Mohamed ezzeldin20");
+        usernameField.sendKeys("Mohamed ezzeldin21");
 
         WebElement passwordField = wait.until(ExpectedConditions.elementToBeClickable(By.id("sign-password")));
         passwordField.sendKeys("123456");
@@ -54,7 +54,7 @@ public class TestSignupAndLogin {
         loginButton.click();
 
         WebElement usernameField = wait.until(ExpectedConditions.elementToBeClickable(By.id("loginusername")));
-        usernameField.sendKeys("Mohamed ezzeldin20");
+        usernameField.sendKeys("Mohamed ezzeldin21");
 
         WebElement passwordField = wait.until(ExpectedConditions.elementToBeClickable(By.id("loginpassword")));
         passwordField.sendKeys("123456");
